@@ -26,7 +26,7 @@ def roundRobin(p):
             current_process.tiempo
         ))
         for item in p:
-            print("El proceso {} aún necesita tiempo: {}".format(item.pid, item.time))
+            print("El proceso {} aún necesita tiempo: {}".format(item.pid, item.tiempo))
         if current_process.tiempo == 0:
             if len(p):
                 current_process = p.pop()
